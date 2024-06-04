@@ -21,7 +21,7 @@
 git clone [URL DEL REPOSITORIO]
 ```
 
-## Cambio de rama del repositorio
+## Cambiar de rama del repositorio
 
 Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", para ello debe escribir el siguiente comando.
 
