@@ -13,7 +13,7 @@
 ![alt text](image-1.png)
 
 ### Limpiar archivos
-
+- Primero debe detener el proyecto.
 - Antes de crear el proyecto en .war se debe limpiar los directorios.
 - Dentro de la terminal del IDE, escribir los siguientes comandos 
 ```
@@ -26,9 +26,12 @@
 
 
 ### Crear Archivo.War
- 
+ - Dirigise al directorio target y luego al archivo pom.xml
+ - Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
 ![alt text](pom.png)
+ -Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
 ![alt text](pom.xml.png)
+- Una vez hecho los pasos anterior, ejecutar el proyecto.
 
 
 ---
