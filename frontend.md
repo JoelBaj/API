@@ -14,6 +14,9 @@ Abrir una nueva terminal y ejecutar el siguiente comando
 ```bash
 npm install -g @vue/cli
 ```
+## Configuración
+
+
 ## Levantar la Aplicación
 Para levantar el proyecto en modo desarrollo se debe ejecutar el siguiente comando
 ```bash
