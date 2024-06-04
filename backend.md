@@ -12,7 +12,7 @@ Para poder utilizar el proyecto se necesita las siguientes herramientas:
 
 ### Instalación de dependencias
 
-### Configuracion en application.Property
+### Configuracion 
 
 ### Levantar la Aplicación
 

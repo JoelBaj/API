@@ -9,28 +9,14 @@ Para poder utilizar el proyecto se necesita las siguientes herramientas:
 - [Nodejs](https://nodejs.org/es/download/) v18.18.0 o Superior.
 - IDE de desarrollo [VS Code](https://code.visualstudio.com/download)
 
-## Instalación de dependencias
+### Instalación
 Abrir una nueva terminal
 ```bash
-npm  i
+npm install -g @vue/cli
 ```
-## Levantar la Aplicación
-
+### Levantar la Aplicación
+Para levantar el proyecto en modo desarrollo se debe ejecutar el siguiente comando
 ```bash
-npm run dev
-```
-## Subir cambios
-
-Para poder subir cambios al repositorio es necesario utilizar los siguientes comandos.
-
-```bash
-git add .
+npm run serve
 ```
 
-```bash
-git commit -m "Su mensaje"
-```
-
-```bash
-git push origin "Su rama"
-```

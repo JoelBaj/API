@@ -5,12 +5,16 @@
 ## Contenido
 
 - [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
-- [Guia de proyectos del Backend](#backend)
-- [Guia de proyectos del Frontend](#frontend)
+- [Guia de proyectos del Backend](https://github.com/JoelBaj/API/blob/main/backend.md)
+- [Guia de proyectos del Frontend](https://github.com/JoelBaj/API/blob/main/frontend.md)
 
 ## Guia de cómo clonar el repositorio del proyecto
 
-Abrir la terminal git bash, dirigirse al directorio en donde desea clonar el repositorio, una vez dentro del terminal clonar el repositorio con el siguiente comando.
+1.- Primero debe copiar la url del respositorio
+
+2.- Abrir la terminal git bash, dirigirse al directorio en donde desea clonar el repositorio.
+
+3.- Escriba `git clone` y adjuntar la dirección URL que ha copiado antes.
 
 ```bash
 git clone [URL DEL REPOSITORIO]
@@ -18,15 +22,15 @@ git clone [URL DEL REPOSITORIO]
 
 ## Cambio de rama del repositorio
 
-Una vez clonado el repositorio debe moverse a la rama de "", para ello debe escribir el siguiente comando.
+Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", para ello debe escribir el siguiente comando.
 
 ```bash
-git checkout  [URL DEL REPOSITORIO]
+git checkout  "nombre-de-la-rama"
 ```
+
 
 ---
 ## Backend
----
 
 ## Programas necesarios
 
@@ -46,23 +50,22 @@ npm  i
 npm  run dev
 ```
 ---
-## Frontend
+# Frontend
 
----
-## Programas necesarios
+## Herramientas necesarias
 
 Para poder utilizar el proyecto se necesita las siguientes herramientas:
 
 - [Nodejs](https://nodejs.org/es/download/) v18.18.0 o Superior.
 - IDE de desarrollo [VS Code](https://code.visualstudio.com/download)
 
-### Instalación de dependencias
-Abrir una nueva terminal,
+### Instalación
+Abrir una nueva terminal
 ```bash
-npm  i
+npm install -g @vue/cli
 ```
 ### Levantar la Aplicación
-
+Para levantar el proyecto en modo desarrollo se debe ejecutar el siguiente comando
 ```bash
-npm  run dev
+npm run serve
 ```
