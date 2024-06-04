@@ -1,12 +1,13 @@
-<p align="center"><a href="#" target="_blank"><img src="https://www.duragas.com.ec/wp-content/uploads/2020/07/duragas_logo.svg" width="400" alt="Duragas Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://duragaspromo.com/img/logo.png" width="400" alt="Duragas Logo"></a></p>
 
- # Proyecto Familia Duragas
+
+# Proyecto Familia Duragas
 
 ## Contenido
 
 - [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
-- [Guia de proyectos del Backend](https://github.com/JoelBaj/API/blob/main/backend.md)
-- [Guia de proyectos del Frontend](https://github.com/JoelBaj/API/blob/main/frontend.md)
+- [Guia de proyectos del Backend](#backend)
+- [Guia de proyectos del Frontend](#frontend)
 
 ## Guia de cómo clonar el repositorio del proyecto
 
@@ -31,6 +32,7 @@ git checkout  "nombre-de-la-rama"
 
 ---
 ## Backend
+---
 
 ## Programas necesarios
 
@@ -50,6 +52,7 @@ npm  i
 npm  run dev
 ```
 ---
+
 # Frontend
 
 ## Herramientas necesarias

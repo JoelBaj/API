@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank"><img src="https://www.duragas.com.ec/wp-content/uploads/2020/07/duragas_logo.svg" width="400" alt="Duragas Logo"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="https://duragaspromo.com/img/logo.png" width="400" alt="Duragas Logo"></a></p>
 
  # Proyecto Familia Duragas
 
