@@ -5,7 +5,7 @@
 ## Contenido
 
 - [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
-- [Guia de proyectos del Backend](#[backend](https://github.com/JoelBaj/API/blob/main/backend.md))
+- [Guia de proyectos del Backend](#[backend](https://github.com/JoelBaj/API/blob/main/backend.md)
 - [Guia de proyectos del Frontend](#frontend)
 
 ## Guia de cómo clonar el repositorio del proyecto
