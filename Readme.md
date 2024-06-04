@@ -2,6 +2,12 @@
 
 # Proyecto Familia Duragas
 
+## Requisitos
+
+- Se requeriere conectarse a la VPN para acceder a los servicios de la Bases de datos
+
+ - Tener instalados las siguientes herramientas:  [Manual de instalacion de herramientas](https://github.com/JoelBaj/API/blob/main/Herramientas.md)
+
 ## Contenido
 
 - [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
@@ -22,15 +28,17 @@ git clone [URL DEL REPOSITORIO]
 
 ## Cambiar de rama del repositorio
 
-Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", para ello debe escribir el siguiente comando.
+Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", para ello debe escribir el siguiente comando. 
 
 ```bash
 git checkout  "nombre-de-la-rama"
 ```
 
-## Instalación de Herramientas
-Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones e instalaciones.
+## Sección Backend - Frontend
+Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones. [Volver a contenido](#contenido) 
+
 
 ## Documentacion de Git
 - [Git](https://git-scm.com/docs/git/es)
 - [GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
+

@@ -3,25 +3,28 @@
  
 # Backend
 
-## Herramientas necesarias
+## Configuraciones de manera local
+---
+### Levantar el proyecto
+- Importante detener el servicio wildfly
 
-Para poder utilizar el proyecto se necesita las siguientes herramientas:
-
-- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-- [Maven 3](https://maven.apache.org)
-- [JDK 11](https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/download///?section=windows)
-
-## Documentacion de herramientas
-- [Spring-boot](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/html/getting-started.html)
+- Una vez clonado el proyecto de manera local, procedemos abrirlo en IntelliJ IDEA y presionar el siguiente boton
+![alt text](image-1.png)
 
 
-## Instalación de dependencias
+### Crear Archivo.War
 
-## Configuracion 
 
-## Levantar la Aplicación
+---
+## Deployment 
+---
+- Importante tener conectado la VPN
+- Iniciar el servicio de wildfly
+- Abrir el navegador y coloque la siguiente url: http://127.0.0.1:9990, luego deberá ingresar las credenciales previamente definidas y dar en “Iniciar sesión”.
+- Ubicarse en la pestaña "DESPLOYMENTS", en el sidenav presione el boton "+" y luego dar click en "Upload Deployment" en donde se va aperturar una ventana.
+- Dirigirse la ruta del directorio en donde se encuentra el archivo.war y arrastrarlo dentro de la ventana.
+- Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos.
 
-## Testing
-
+### En caso de error 
+- 
 
