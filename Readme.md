@@ -27,3 +27,6 @@ Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", pa
 ```bash
 git checkout  "nombre-de-la-rama"
 ```
+
+## Instalación de Herramientas
+Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para relizar las respectivas configuraciones e instalaciones.
