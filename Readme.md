@@ -1,6 +1,6 @@
 <p align="center"><a href="#" target="_blank"><img src="https://duragaspromo.com/img/logo.png" width="400" alt="Duragas Logo"></a></p>
 
- # Proyecto Familia Duragas
+# Proyecto Familia Duragas
 
 ## Contenido
 
@@ -29,4 +29,8 @@ git checkout  "nombre-de-la-rama"
 ```
 
 ## Instalación de Herramientas
-Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para relizar las respectivas configuraciones e instalaciones.
+Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones e instalaciones.
+
+## Documentacion de Git
+- [Git](https://git-scm.com/docs/git/es)
+- [GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
