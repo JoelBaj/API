@@ -8,11 +8,27 @@
 ### Levantar el proyecto
 - Importante detener el servicio wildfly
 
-- Una vez clonado el proyecto de manera local, procedemos abrirlo en IntelliJ IDEA y presionar el siguiente boton
+- Una vez clonado el proyecto de manera local, procedemos abrirlo en IntelliJ IDEA y presionar el siguiente boton.
+
 ![alt text](image-1.png)
+
+### Limpiar archivos
+
+- Antes de crear el proyecto en .war se debe limpiar los directorios.
+- Dentro de la terminal del IDE, escribir los siguientes comandos 
+```
+   rm -r target
+   rm -classpath
+   rm -proyect
+   mvn eclipse:eclipse
+   mvn clean package
+```
 
 
 ### Crear Archivo.War
+ 
+![alt text](pom.png)
+![alt text](pom.xml.png)
 
 
 ---
