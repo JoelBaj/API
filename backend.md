@@ -26,9 +26,9 @@
 
 
 ### Crear Archivo.War
- - Dirigise al directorio target y luego al archivo pom.xml
+ - Dirigise al archivo pom.xml
  - Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
-![alt text](./src/img//pom.png)
+![alt text](./src/img/pom.png)
 - Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
 ![alt text](./src/img/pom.xml.png)
 - Una vez hecho los pasos anterior, ejecutar el proyecto.
