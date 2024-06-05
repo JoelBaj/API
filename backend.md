@@ -10,11 +10,11 @@
 
 - Una vez clonado el proyecto de manera local, procedemos abrirlo en IntelliJ IDEA y presionar el siguiente boton.
 
-![alt text](image-1.png)
+![alt text](./src/img/image-1.png)
 
 ### Limpiar archivos
 - Primero debe detener el proyecto.
-- Antes de crear el proyecto en .war se debe limpiar los directorios.
+- Antes de crear e<<l proyecto en .war se debe limpiar los directorios.
 - Dentro de la terminal del IDE, escribir los siguientes comandos 
 ```
    rm -r target
@@ -28,9 +28,9 @@
 ### Crear Archivo.War
  - Dirigise al directorio target y luego al archivo pom.xml
  - Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
-![alt text](pom.png)
+![alt text](./src/img/pom.png)
  -Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
-![alt text](pom.xml.png)
+![alt text](./src/img/pom.xml.png)
 - Una vez hecho los pasos anterior, ejecutar el proyecto.
 
 
