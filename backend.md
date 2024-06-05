@@ -45,11 +45,16 @@
 - Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos.
 
 ### En caso de error 
+
 ![alt text](./src/img/error.png)
 
 - Dirigirse en el directorio bin, buscar el archivo "standalone.conf.bat" y le da click derecho para editar.
+
 ![alt text](./src/img/Wildfly-bin.png)
+
 -  Busque el Parámetro: -XX:MaxMetaspaceSize por defecto sale el tamaño "256m", modificarlo al tamaño de "512m", debe quedar de la siguiente manera:
+
 ![alt text](./src/img/standalone.bat.png)
+
 - Guardar los cambios.
 - Por utlimo Reiniciar el servidor wildfly.
