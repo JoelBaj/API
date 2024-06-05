@@ -11,15 +11,11 @@ URL:
 ```
 URL: 
 ```
-## IntelliJ IDEA 
+## IDE
 ```
 URL: 
 ```
 ## WildFly versión 18.0.1 
-```
-URL: 
-```
-- Servicio Automático de wilfly
 ```
 URL: 
 ```
@@ -37,6 +33,3 @@ URL:
 URL: 
 ```
 
-## En caso de error
-
--
