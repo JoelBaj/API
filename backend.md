@@ -14,7 +14,7 @@
 
 ### Limpiar archivos
 - Primero debe detener el proyecto.
-- Antes de crear e<<l proyecto en .war se debe limpiar los directorios.
+- Antes de crear el proyecto en .war se debe limpiar los directorios.
 - Dentro de la terminal del IDE, escribir los siguientes comandos 
 ```
    rm -r target
@@ -28,14 +28,14 @@
 ### Crear Archivo.War
  - Dirigise al directorio target y luego al archivo pom.xml
  - Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
-![alt text](./src/img/pom.png)
- -Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
+![alt text](./src/img//pom.png)
+- Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
 ![alt text](./src/img/pom.xml.png)
 - Una vez hecho los pasos anterior, ejecutar el proyecto.
 
 
 ---
-## Deployment 
+## Servidor (Deployment)
 ---
 - Importante tener conectado la VPN
 - Iniciar el servicio de wildfly
@@ -45,5 +45,11 @@
 - Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos.
 
 ### En caso de error 
-- 
+![alt text](./src/img/error.png)
 
+- Dirigirse en el directorio bin, buscar el archivo "standalone.conf.bat" y le da click derecho para editar.
+![alt text](./src/img/Wildfly-bin.png)
+-  Busque el Parámetro: -XX:MaxMetaspaceSize por defecto sale el tamaño "256m", modificarlo al tamaño de "512m", debe quedar de la siguiente manera:
+![alt text](./src/img/standalone.bat.png)
+- Guardar los cambios.
+- Por utlimo Reiniciar el servidor wildfly.
