@@ -2,31 +2,31 @@
 
 # Proyecto Familia Duragas
 
-## Requisitos
+## 1.- Requisitos
 
 - Se requeriere conectarse a la VPN para acceder a los servicios de la Bases de datos
 
  - Tener instalados las siguientes herramientas:  [Manual de instalacion de herramientas](https://github.com/JoelBaj/API/blob/main/Herramientas.md)
 
-## Contenido
+## 2.- Contenido
 
 - [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
 - [Guia de proyectos del Backend](https://github.com/JoelBaj/API/blob/main/backend.md)
 - [Guia de proyectos del Frontend](https://github.com/JoelBaj/API/blob/main/frontend.md)
 
-## Guia de cómo clonar el repositorio del proyecto
+## 3.- Guia de cómo clonar el repositorio del proyecto
 
-1.- Primero debe copiar la url del respositorio
+3.1.- Primero debe copiar la url del respositorio
 
-2.- Abrir la terminal git bash, dirigirse al directorio en donde desea clonar el repositorio.
+3.2.- Abrir la terminal git bash, dirigirse al directorio en donde desea clonar el repositorio.
 
-3.- Escriba `git clone` y adjuntar la dirección URL que ha copiado antes.
+3.3.- Escriba `git clone` y adjuntar la dirección URL que ha copiado antes.
 
 ```bash
 git clone [URL DEL REPOSITORIO]
 ```
 
-## Cambiar de rama del repositorio
+## 4.-Cambiar de rama del repositorio
 
 Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", para ello debe escribir el siguiente comando. 
 
@@ -34,11 +34,11 @@ Una vez clonado el repositorio debe moverse a la rama de "nombre-de-la-rama", pa
 git checkout  "nombre-de-la-rama"
 ```
 
-## Sección Backend - Frontend
+## 5.-Sección Backend - Frontend
 Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones. [Volver a contenido](#contenido) 
 
 
-## Documentacion de Git
+## 6.-Documentacion de Git
 - [Git](https://git-scm.com/docs/git/es)
 - [GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository)
 

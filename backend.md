@@ -3,7 +3,7 @@
  
 # Backend
 ## Contenido
-- [1.- Configuracuibes de manera local](#1--configuraciones-de-manera-local)
+- [1.- Configuraciones de manera local](#1--configuraciones-de-manera-local)
 - [2.- Servidor](#servidor-deployment)
 
 
@@ -19,8 +19,11 @@
 
    * Debe tener descomentado el tomcat y jasper como se presenta las siguiente imagen:
 
+
 - Una vez hecho las modificaciones, proceda actualizar el maven.
-      ![alt text](./src/img/maven.png)
+
+   ![alt text](./src/img/maven.png)
+
 - Finalmente ejecutar el proyecto.
 
 
@@ -58,11 +61,11 @@
 ---
 ### 1.4.- Levantar servidor de manera local
 ---
-<!-- - Revisar el servicio wildfly esté detenetido, 
+ - Revisar el servicio wildfly esté detenetido, 
 - Abrir el navegador y coloque la siguiente url: http://127.0.0.1:9990, luego deberá ingresar las credenciales previamente definidas y dar en “Iniciar sesión”.
 - Ubicarse en la pestaña "DEPLOYMENTS", en el sidenav presione el boton "+" y luego dar click en "Upload Deployment" en donde se va aperturar una ventana.
 - Dirigirse la ruta del directorio en donde se encuentra el archivo.war y arrastrarlo dentro de la ventana.
-- Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos. -->
+- Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos. 
 
 ### 1.5.- En caso de error al levantar el servidor
 
@@ -85,5 +88,5 @@
 - Importante tener conectado la VPN
 - Seguir las instrucciones del manual en el siguiente URL:
 ```
-URL:
+URL: 
 ```
