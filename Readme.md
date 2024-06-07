@@ -4,13 +4,13 @@
 
 ## 1.- Requisitos
 
-- Se requeriere conectarse a la VPN para acceder a los servicios de la Bases de datos
+- Se requeriere conectarse a la VPN para acceder a los servicios o aplicativo de Duragas
 
  - Tener instalados las siguientes herramientas:  [Manual de instalacion de herramientas](https://github.com/JoelBaj/API/blob/main/Herramientas.md)
 
 ## 2.- Contenido
 
-- [Clonar Repositorio](#guia-de-cómo-clonar-el-repositorio-del-proyecto)
+- [Clonar Repositorio](#3--guia-de-cómo-clonar-el-repositorio-del-proyecto)
 - [Guia de proyectos del Backend](https://github.com/JoelBaj/API/blob/main/backend.md)
 - [Guia de proyectos del Frontend](https://github.com/JoelBaj/API/blob/main/frontend.md)
 

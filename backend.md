@@ -10,9 +10,9 @@
 ## 1.- Configuraciones de manera local
 ---
 ### 1.1.- Levantar el proyecto
-- Revisar si el servicio wildfly esté detenido, si esta en ejecución proceda a detenerlo.
+- Revisar si el servicio wildfly está detenido, si esta en ejecución proceda a detenerlo.
 - Una vez clonado el proyecto de manera local, procedemos abrirlo en el IDE 
-- En el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
+- Ubicarse en el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
    
    * Debe tener comentado el tomcat como se presenta la siguiente imagen:
 
@@ -43,8 +43,9 @@
 - En caso de que no se compile el proyecto, Comunicar a la persona encargada: 
 ```
 ```
+### 1.3 Deploy de proyecto de manera local
 
-### 1.3.- Guia para crear Archivo.War
+### 1.3.1- Guia para crear Archivo.War
  - Dirigise al archivo pom.xml
  - Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
 ![alt text](./src/img/pom.png)
@@ -61,48 +62,29 @@
 - Por ultimo Ejecutar el proyecto.
 
 
----
-### 1.4.- Levantar servidor de manera local
----
- - Revisar el servicio wildfly esté detenetido, 
-- Abrir el navegador y coloque la siguiente url: http://127.0.0.1:9990, luego deberá ingresar las credenciales previamente definidas y dar en “Iniciar sesión”.
-- Ubicarse en la pestaña "DEPLOYMENTS", en el sidenav presione el boton "+" y luego dar click en "Upload Deployment" en donde se va aperturar una ventana.
-- Dirigirse la ruta del directorio en donde se encuentra el archivo.war y arrastrarlo dentro de la ventana.
-- Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos. 
 
-<!-- - Revisar el servicio wildfly esté detenetido
+Ubicacion de arhivo .war
+ buscar archivo
+
+---
+### 1.4.- Deploy de archivo war de manera local
+---
+- Importante detener la api
 - Seguir las instrucciones del manual en el siguiente URL:
-```
- 
-``` -->
 
-
-
-### 1.5.- En caso de error al levantar el servidor
-
-![alt text](./src/img/error.png)
-
-- Dirigirse en el directorio bin, buscar el archivo "standalone.conf.bat" y le da click derecho para editar.
-
-![alt text](./src/img/Wildfly-bin.png)
-
--  Busque el Parámetro: -XX:MaxMetaspaceSize por defecto sale el tamaño "256m", modificarlo al tamaño de "512m", debe quedar de la siguiente manera:
-
-![alt text](./src/img/standalone.bat.png)
-
-- Guardar los cambios.
-- Por utlimo Reiniciar el servidor wildfly.
-
-<!-- - En caso de error , digirse al URL y siga las siguientes instrucciones 
 ```
  
 ``` 
--->
+- En caso de seguir con el error 
+- Ubicarse en el parámetro: -XX:MaxMetaspaceSize modificarlo al tamaño de "3052m"
+
+### 1.4.1.- En caso de error al deployar
 
  - Si exite problema al levantar el servidor, comuniquese con la persona encargada.
  ```
  
 ```
+
 
 ---
 ## 2.- Servidor(Deployment)
