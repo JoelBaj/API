@@ -35,7 +35,7 @@ git checkout  "nombre-de-la-rama"
 ```
 
 ## 5.-Sección Backend - Frontend
-Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones. [Volver a contenido](#contenido) 
+Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las respectivas configuraciones. [Volver a contenido](#2--contenido) 
 
 
 ## 6.-Documentacion de Git
