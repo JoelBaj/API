@@ -97,12 +97,12 @@
 ```
  
 ``` 
+-->
+
  - Si exite problema al levantar el servidor, comuniquese con la persona encargada.
  ```
  
 ```
--->
-
 
 ---
 ## 2.- Servidor(Deployment)
