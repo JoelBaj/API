@@ -4,7 +4,6 @@
 - Herramientas de instalacion [Acceder aqui](https://drive.google.com/drive/folders/1_rH6gyEHxHU9gEWceB1TGlBQdeyhqlD0)
 - Acceder a los Link de cada uno para visualizar los manuales de instalación.
  
-
 ## Java - JDK
 ```
  
@@ -14,9 +13,11 @@
 URL: 
 ``` -->
 ## IDE 
-```
- 
-```
+ - Descargar el IDE de preferencia 
+    * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+    * [Apache Netbeans 11](https://netbeans.apache.org/front/main/download/nb113/nb113/)
+  
+  
 ## WildFly versión 18.0.1 
 ```
 https://drive.google.com/file/d/1S-hECroH7g7mDXuKFwqBGfKd9zIV83Ah/view
@@ -33,4 +34,3 @@ https://drive.google.com/file/d/1GovOKyPrLZi9JgcyP-My0oHe_P0ir_G7/view
 ```
 https://drive.google.com/file/d/1HtU1RnTltp5TSrRhp08vOTFU-eHvnSkg/view
 ```
-

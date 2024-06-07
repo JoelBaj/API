@@ -4,7 +4,7 @@
 # Backend
 ## Contenido
 - [1.- Configuraciones de manera local](#1--configuraciones-de-manera-local)
-- [2.- Servidor](#servidor-deployment)
+- [2.- Servidor](#2--servidordeployment)
 
 
 ## 1.- Configuraciones de manera local
@@ -12,7 +12,7 @@
 ### 1.1.- Levantar el proyecto
 - Revisar si el servicio wildfly esté detenido, si esta en ejecución proceda a detenerlo.
 - Una vez clonado el proyecto de manera local, procedemos abrirlo en el IDE 
-- En el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes intrucciones:
+- En el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
    
    * Debe tener comentado el tomcat como se presenta la siguiente imagen:
 
@@ -70,6 +70,14 @@
 - Dirigirse la ruta del directorio en donde se encuentra el archivo.war y arrastrarlo dentro de la ventana.
 - Dar click en Next, asegurar de que en Enable esté en "ON" y por ultimo finalizamos. 
 
+<!-- - Revisar el servicio wildfly esté detenetido
+- Seguir las instrucciones del manual en el siguiente URL:
+```
+ 
+``` -->
+
+
+
 ### 1.5.- En caso de error al levantar el servidor
 
 ![alt text](./src/img/error.png)
@@ -85,8 +93,19 @@
 - Guardar los cambios.
 - Por utlimo Reiniciar el servidor wildfly.
 
+<!-- - En caso de error , digirse al URL y siga las siguientes instrucciones 
+```
+ 
+``` 
+ - Si exite problema al levantar el servidor, comuniquese con la persona encargada.
+ ```
+ 
+```
+-->
+
+
 ---
-## 2.- Servidor (Deployment)
+## 2.- Servidor(Deployment)
 ---
 - Importante tener conectado la VPN
 - Seguir las instrucciones del manual en el siguiente URL:
