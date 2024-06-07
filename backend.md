@@ -16,8 +16,11 @@
    
    * Debe tener comentado el tomcat como se presenta la siguiente imagen:
 
+   ![alt text](./src/img/tomcat.png)
 
    * Debe tener descomentado el tomcat y jasper como se presenta las siguiente imagen:
+
+   ![alt text](./src/img/tomcat_jasper.png)
 
 
 - Una vez hecho las modificaciones, proceda actualizar el maven.
@@ -88,5 +91,5 @@
 - Importante tener conectado la VPN
 - Seguir las instrucciones del manual en el siguiente URL:
 ```
-URL: 
+ 
 ```
