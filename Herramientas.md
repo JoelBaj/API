@@ -3,12 +3,12 @@
 # Instalación de herramientas
 
 ## 1.- Requerimiento
- - Descargar el IDE de preferencia 
-    * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows)
+ - Descargar el IDE de preferencia:
+    * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows) 
     * [Apache Netbeans 11](https://netbeans.apache.org/front/main/download/nb113/nb113/)
 
 ## 2.- Manual e intaladores de Herramientas
-- Acceder a los siguientes link:
+
 
 ## 2.1 Java - JDK
 
