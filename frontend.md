@@ -2,5 +2,20 @@
 
 # Frontend
 
+directorio resource/static
+
+copiar path/ resource
+
+abrir el cmd y / code .
+
+ubicarse al cd crotolamo
+
+npm run start
+
+------
+si al realizar modificacion
+visualizar la terminal, en donde se presentara como resultado en la siguiente imagen...
+
+
 
 

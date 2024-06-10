@@ -59,7 +59,11 @@
 
          ![alt text](./src/img/pom.xml.png)
 
-- Una vez hecho los pasos anterior, Abrir la terminal del IDE, escribir los siguientes comandos
+- Una vez hecho las modificaciones, proceda actualizar el maven.
+
+   ![alt text](./src/img/maven.png)
+
+- Por ultimo abrir la terminal del IDE, escribir los siguientes comandos
 ```
    rm -r target
    rm .classpath
@@ -67,23 +71,24 @@
    mvn eclipse:eclipse
    mvm clean package
 ```
-- Por ultimo ejecutar el proyecto.
 
-### 1.3.2 Ubicacion del archivo .war
 
-- Una vez hecho el proceso anterior, se generó el archivo .war en la siguiente ruta: "C:\Users\VIAMATICA".
+### 1.3.2 Ubicación del archivo .war
 
- ![alt text](./src/img/.png)
+- Una vez completado el paso anterior, el archivo .war se generará dentro del Api principal en el directorio de target, para más detalles, vea el ejemplo en la siguiente imagen:
+
+   ![alt text](./src/img/UrlWar.png)
 
 - Después de localizar el archivo .war, continúe con el siguiente proceso.
 ---
 ### 1.4.-  Despliegue de archivo .war en WildFly de manera local
 ---
 - Importante detener la api del proyecto principal
-- Seguir las instrucciones del manual que se encuentra en el siguiente URL:
+- Debe estar en ejecución el servicio Wildfly
+- Seguir las instrucciones del manual en el punto 1.3 que se encuentra en el siguiente URL:
 
 ```
- 
+https://drive.google.com/file/d/104GB6vxkwW3gItneXXyoz6LIShzNCoVW/view?usp=sharing
 ``` 
 - Si existe problema al desplegar, dirigirse nuevamente al directorio bin, ubicarse en el archivo "standalone.conf.bat" dar clic en editar, luego busque el parámetro "-XX:MaxMetaspaceSize" y modificarlo al tamaño de "3052m" y guarde los cambios.
 
@@ -92,10 +97,9 @@
 ### 1.4.1.- En caso de error al deployar
 
  -  En caso de seguir con el error, comuniquese con la persona encargada.
- ```
+```
  
 ```
-
 
 ---
 ## 2.- Servidor(Deployment)
@@ -103,5 +107,5 @@
 - Importante tener conectado la VPN
 - Seguir las instrucciones del manual en el siguiente URL:
 ```
- 
+https://drive.google.com/file/d/1UtDTKeJoT0L83zkxVDLSNSeeKgRmvZEF/view?usp=sharing
 ```
