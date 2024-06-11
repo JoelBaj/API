@@ -3,22 +3,33 @@
 # Frontend
 ## Instrucciones
 
+- En el API principal dirigirse al directorio "resource/static", como se presenta en la siguiente imagen:
 
-- Ubicarse en el directorio "resource/static", donde se encuentra toda la arquitectura del front desarrollada en vue.js.
+    ![alt text](./src/img/api.png)
 
-- Copiar la ruta del directorio, como se presenta en la siguiente imagen:
+- Dar clic derecho al directorio "static", seleccione
+la siguiente opcion "Copy Path/Reference" 
+   ![alt text](./src/img/path.png)
 
+- Se mostrará las siguiente ventana, seleccione la opcion "Absolute path"
+   ![alt text](./src/img/pathcopy.png)
 
-- Abrir el simbolo de sistema(cmd), adjuntar la ruta que ha copiado en el paso anterior y escribir el comando "code . "
+- Abrir el simbolo de sistema (cmd), adjuntar el path que ha copiado en el paso anterior y escribir el comando "code . "
 
+   ![alt text](./src/img/cmd.png) 
 
-- En el visual studio Code, abrir la terminal, navegar al directorio "cd crotolamo" y por último escribir el comando "npm run start".
+- En el Visual Studio Code, abrir la terminal, escriba el comando "npm i" para relizar las instalaciones de  librerias necesarias.
 
+   ![alt text](./src/img/front_install.png)
 
-<!-- - En caso de realizar cambios, verificar en la terminal si se han aplicado correctamente -->
+- Una vez hecho el paso anterior, navegar al directorio "cd crotolamo" y por último escribir el comando "npm run start".
+ 
+   ![alt text](./src/img/front_run.png) 
 
-<!-- - si al realizar modificacion
-visualizar la terminal, en donde se presentara como resultado en la siguiente imagen... -->
+- En caso de realizar modificaciones en el código, verificar en la terminal si los cambios se han aplicado correctamente.
+
+   ![alt text](./src/img/front_update.png) 
+
 
 
 
