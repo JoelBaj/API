@@ -63,8 +63,8 @@ https://drive.google.com/file/d/1fi_dBnxcd2upsbwCTDO35WgOza8i2sng/view?usp=drive
 
 ## 2.4 Apache CouchBD versión 3.3.3
 
-- [Manual Apache CouucBD](https://drive.google.com/file/d/1m-_8fC1o-Hfu5GBBkj8tf-kG58h-NDNV/view?usp=sharing)
-- [Instalador Apache CouucBD](https://drive.google.com/file/d/1ko7LODxwgzmElvafU84GefKB9ABhNO9U/view?usp=drive_link)
+- [Manual Apache CouchBD](https://drive.google.com/file/d/1m-_8fC1o-Hfu5GBBkj8tf-kG58h-NDNV/view?usp=sharing)
+- [Instalador Apache CouchBD](https://drive.google.com/file/d/1ko7LODxwgzmElvafU84GefKB9ABhNO9U/view?usp=drive_link)
 
 <!-- Manual: 
 ``` 
@@ -105,7 +105,7 @@ https://drive.google.com/file/d/14r0LyPS8_xHEvIGy1gJslqDg8suxEExD/view?usp=drive
 - Importante seguir con el manual en la seccion 3, para configurar Nginx como servicio de Windows.
 
 ### 2.6.2 Recurso
-- Dirigisrse al siguiente url e instalar el archivo "portal"
+- Dirigirse al siguiente url e instalar el archivo "portal"
   
   * [Repositorio portal](https://drive.google.com/file/d/19moVRFkFXUNgHaeEYPAGcKxU1IovoPQJ/view?usp=sharing) 
 <!-- ``` 
