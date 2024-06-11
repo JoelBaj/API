@@ -2,8 +2,7 @@
 
 # Frontend
 ## Instrucciones
-
-- En el API principal dirigirse al directorio "resource/static", como se presenta en la siguiente imagen:
+- En la API principal dirigirse al directorio "resource/static", como se presenta en la siguiente imagen:
 
     ![alt text](./src/img/api.png)
 
