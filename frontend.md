@@ -11,10 +11,11 @@
 la siguiente opcion "Copy Path/Reference" 
    ![alt text](./src/img/path.png)
 
-- Se mostrará las siguiente ventana, seleccione la opcion "Absolute path"
+- Se mostrará la siguiente ventana, seleccione la opcion "Absolute path"
    ![alt text](./src/img/pathcopy.png)
 
-- Abrir el simbolo de sistema (cmd), adjuntar el path que ha copiado en el paso anterior y escribir el comando "code . "
+- Abrir el simbolo de sistema (cmd), adjuntar el path que ha copiado en el paso anterior
+ y escribir el comando "code . "
 
    ![alt text](./src/img/cmd.png) 
 

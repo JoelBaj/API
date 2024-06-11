@@ -22,7 +22,6 @@
 
    ![alt text](./src/img/tomcat_jasper.png)
 
-
 - Una vez hecho las modificaciones, proceda actualizar el maven.
 
    ![alt text](./src/img/maven.png)
