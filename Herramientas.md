@@ -2,7 +2,9 @@
 
 # Instalación de herramientas
 
-## 1.- Requerimiento
+## 1.- Requisitos
+
+ - Descargar: [Visual Studio Code](https://code.visualstudio.com/)
  - Descargar el IDE de preferencia:
     * [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows) 
     * [Apache Netbeans 11](https://netbeans.apache.org/front/main/download/nb113/nb113/)
@@ -81,7 +83,7 @@ https://drive.google.com/file/d/14r0LyPS8_xHEvIGy1gJslqDg8suxEExD/view?usp=drive
 - Importante seguir con el manual en la seccion 3, para configurar Nginx como servicio de Windows.
 
 ### 2.6.2 Recurso
-- Dirigisrse al siguiente url e instalar el archivo "portal"
+- D irigisrse al siguiente url e instalar el archivo "portal"
 ``` 
 https://drive.google.com/file/d/19moVRFkFXUNgHaeEYPAGcKxU1IovoPQJ/view?usp=sharing
 ```
