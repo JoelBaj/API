@@ -4,15 +4,15 @@
 ## Instrucciones
 
 
-- Ubicarse en el directorio resource/static, en el cual está toda la arquitectura del front desarrollada en vue.js.
+- Ubicarse en el directorio "resource/static", donde se encuentra toda la arquitectura del front desarrollada en vue.js.
 
-- Copiar la ruta, como se presenta en la siguiente imagen:
-
-
-- Abrir la cmd, adjuntar la ruta que ha copiado en el paso anterior y escribir el comando "code . "
+- Copiar la ruta del directorio, como se presenta en la siguiente imagen:
 
 
-- Dentro del visual studio abrir la terminal, ubicarse al directorio "cd crotolamo" y por ultimo escribir el comando "npm run start".
+- Abrir el simbolo de sistema(cmd), adjuntar la ruta que ha copiado en el paso anterior y escribir el comando "code . "
+
+
+- En el visual studio Code, abrir la terminal, navegar al directorio "cd crotolamo" y por último escribir el comando "npm run start".
 
 
 <!-- - En caso de realizar cambios, verificar en la terminal si se han aplicado correctamente -->

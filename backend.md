@@ -14,11 +14,11 @@
 - Una vez clonado el proyecto de manera local, procedemos abrirlo en el IDE 
 - Ubicarse en el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
    
-   * Debe tener comentado el tomcat como se presenta la siguiente imagen:
+   * Debe tener comentado el tomcat, como se presenta en la siguiente imagen:
 
    ![alt text](./src/img/tomcat.png)
 
-   * Debe tener descomentado el tomcat y jasper como se presenta las siguiente imagen:
+   * Debe tener descomentado el tomcat y jasper, como se presenta en la siguiente imagen:
 
    ![alt text](./src/img/tomcat_jasper.png)
 
@@ -40,7 +40,7 @@
    mvn eclipse:eclipse
    
 ```
-- En caso de que no se compile el proyecto, Comunicar a la persona encargada: 
+- En caso de que no se compile el proyecto, comunicar a la persona encargada: 
 ```
 ```
 ### 1.3 Proceso de creación y ubicación del archivo .war
@@ -51,11 +51,11 @@
 
  -  Dirigise al archivo pom.xml y busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
 
-      * Debe tener descomentado el tomcat que se muestra en la siguiente imagen:
+      * Debe tener descomentado el tomcat, como se presenta en la siguiente imagen:
 
          ![alt text](./src/img/pom.png)
 
-      * Luego debe comentar el tomcat y jasper que se muestra en la siguiente imagen:
+      * Luego debe comentar el tomcat y jasper, como se presenta en la siguiente imagen:
 
          ![alt text](./src/img/pom.xml.png)
 
@@ -75,7 +75,7 @@
 
 ### 1.3.2 Ubicación del archivo .war
 
-- Una vez completado el paso anterior, el archivo .war se generará dentro del Api principal en el directorio de target, para más detalles, vea el ejemplo en la siguiente imagen:
+- Una vez hecho el paso anterior, el archivo .war se generará dentro del Api principal en el directorio de target, para más detalles, vea el ejemplo en la siguiente imagen:
 
    ![alt text](./src/img/UrlWar.png)
 
@@ -105,6 +105,7 @@ https://drive.google.com/file/d/104GB6vxkwW3gItneXXyoz6LIShzNCoVW/view?usp=shari
 ## 2.- Servidor(Deployment)
 ---
 - Importante tener conectado la VPN
+- Debe estar en ejecución el servicio Wildfly
 - Seguir las instrucciones del manual en el siguiente URL:
 ```
 https://drive.google.com/file/d/1UtDTKeJoT0L83zkxVDLSNSeeKgRmvZEF/view?usp=sharing
