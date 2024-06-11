@@ -53,7 +53,7 @@ https://drive.google.com/file/d/1fi_dBnxcd2upsbwCTDO35WgOza8i2sng/view?usp=drive
 
 Manual: 
 ``` 
-https://drive.google.com/drive/folders/1_rH6gyEHxHU9gEWceB1TGlBQdeyhqlD0
+https://drive.google.com/file/d/1m-_8fC1o-Hfu5GBBkj8tf-kG58h-NDNV/view?usp=sharing
 ```
 Instalador: 
 ``` 
@@ -73,7 +73,7 @@ https://drive.google.com/file/d/16xh9CswEnWn7w-00PaOWkGdUoCBwj4Ut/view?usp=drive
 
 Manual: 
 ``` 
-https://drive.google.com/file/d/1S-hECroH7g7mDXuKFwqBGfKd9zIV83Ah/view
+https://drive.google.com/file/d/1HtU1RnTltp5TSrRhp08vOTFU-eHvnSkg/view?usp=sharing
 ```
 Instalador: 
 ``` 
