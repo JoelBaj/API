@@ -28,7 +28,7 @@ El siguiente proceso se detalla en cómo levantar el proyecto en Visual Studio C
 
   ![alt text](./src/img/front_run.png)
 
-- En caso de realizar modificaciones en el código, verificar en la terminal si los cambios se han aplicado correctamente
+- En caso de realizar modificaciones en el código, verificar en la terminal si los cambios se han aplicado correctamente, Como se muestra en la siguiente imagen, el mensaje de "output" indica cuáles archivos fueron modificados.
 
   ![alt text](./src/img/front_update.png)
 
