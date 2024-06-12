@@ -55,7 +55,7 @@ git clone [URL DEL REPOSITORIO]
   git status
   git add .
   git commit -m "mensaje-del-commit"
-  git push -u origin main
+  git push -u origin 'nombre-rama'
   ```
 
 ## 5.- Sección Backend - Frontend
