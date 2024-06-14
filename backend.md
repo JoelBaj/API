@@ -10,10 +10,10 @@
     * WildFly versión 18.0.1 - (Importante configurar WildFly como servicio de Windows)
     * IntelliJ IDEA Community Edition
   
-  - Digirse al directorio resource, busque la carpeta 
+  - Digirse al directorio resource del API principal, busque la carpeta 
   "FA" y moverlo al disco local C.
 
-  - Para instalar el archivo .jar en el fuente, diríjase a la carpeta resource del API principal, copie la ruta  en donde se encuentra ubicado el .jar, abra una terminal (cmd) y adjuntar la ruta copiada; Por último ejecute el siguiente comando:
+  - Para instalar el archivo .jar en el fuente, diríjase a la carpeta resource del API, copie la ruta  en donde se encuentra ubicado el .jar, abra una terminal (cmd) y adjuntar la ruta copiada; Por último ejecute el siguiente comando:
 
   ```
     mvn install:install-file -Dfile=com.microsoft.sqlserver-0.4.1.jar -DgroupId=sqljdbc41 -DartifactId=com.microsoft.sqlserver -Dversion=0.4.1 -Dpackaging=jar -DgeneratePom=true
@@ -112,6 +112,7 @@
   * Para el ambiente en fase de producción, se especifica con el nombre de "Web".
 
   - Para más detalles, observe la siguiente imagen:
+  
     ![alt text](./src/img/jar.png)
 ---
 
