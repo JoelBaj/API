@@ -2,6 +2,28 @@
 
 # Backend
 
+##  Requisitos
+  - Herramientas necesarias:
+    * Java 8 - JDK
+    * Maven 3.8.6
+    * Apache CouchBD versión 3.3.3
+    * WildFly versión 18.0.1 - (Importante configurar WildFly como servicio de Windows)
+
+  - Descargar IDE de preferencia para Java:
+    * IntelliJ IDEA Community Edition (recomendado) 
+    * Apache Netbeans 11
+  
+  - Descargue la carpeta FA que se encuentra dentro del repositorio principal en la carpeta de resource y descomprímala en el disco local C.
+  
+  <!-- - Verificar en la API del proyecto, se encuentre el archivo "com.microsoft.sqlserver-0.4.1.jar" que está ubicado en la carpeta de recursos, para la instalacion del mismo abra la terminal del IDE d   -->
+
+  <!-- - Una vez descargado la carpeta FA, siga las siguientes instrucciones:
+    * Descargar el archivo "com.microsoft.sqlserver-0.4.1.jar" y ubicarlo en la Api principal dentro de la carpeta de resource.
+    * Pot ultimo abrir la terminal del IDE Y ejecutar el siguiente comando:
+    ```
+    mvn install:install-file -Dfile=com.microsoft.sqlserver-0.4.1.jar -DgroupId=sqljdbc41 -DartifactId=com.microsoft.sqlserver -Dversion=0.4.1 -Dpackaging=jar -DgeneratePom=true
+    ``` -->
+
 ## Contenido
 
 - [1.- Configuraciones de manera local](#1--configuraciones-de-manera-local)
@@ -38,12 +60,12 @@
 ```
    rm -r target
    rm .classpath
-   rm -proyect
+   rm .proyect
    mvn eclipse:eclipse
 
 ```
 
-- En caso de que no se compile el proyecto, comunicar a la persona encargada:
+- En caso de que no se compile el proyecto, comuniquese con el lider tecnico.
 
 ```
 
@@ -55,7 +77,14 @@
 
 - Detener la API del proyecto principal antes de proceder con la creación del archivo .war en el siguiente paso.
 
-- Dirigise al archivo pom.xml y busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
+- AVISO: Dirigirse al archivo pom.xml, Para la generación del archivo .jar puede variar según el ambiente:
+
+  * Para el ambiente de servidor de calidad y local, se especifica con el nombre de "Web-dev".
+
+  * Para el ambiente en fase de producción, se especifica con el nombre de "Web".
+
+
+- Una vez hecho el paso anterior segun el ambiente, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
 
   - Debe tener descomentado el tomcat, como se presenta en la siguiente imagen:
 
@@ -74,7 +103,7 @@
 ```
    rm -r target
    rm .classpath
-   rm -proyect
+   rm .proyect
    mvn eclipse:eclipse
    mvm clean package
 ```
@@ -107,7 +136,7 @@ https://drive.google.com/file/d/104GB6vxkwW3gItneXXyoz6LIShzNCoVW/view?usp=shari
 
 ### 1.4.1.- En caso de error al deployar
 
-- En caso de seguir con el error, comuniquese con la persona encargada.
+- En caso de seguir con el error, comuniquese con el lider tecnico.
 
 ```
 
@@ -126,5 +155,3 @@ https://drive.google.com/file/d/104GB6vxkwW3gItneXXyoz6LIShzNCoVW/view?usp=shari
 ```
 https://drive.google.com/file/d/1UtDTKeJoT0L83zkxVDLSNSeeKgRmvZEF/view?usp=sharing
 ```
-
-### [Volver al README](https://github.com/JoelBaj/API/blob/main/Readme.md)

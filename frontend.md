@@ -2,6 +2,12 @@
 
 # Frontend
 
+## Requisitos
+ - Herramientas necesarias:
+    * Visual Studio Code
+    * Node versión 20.11.1
+
+## Contenido
 El siguiente proceso se detalla en cómo levantar el proyecto en Visual Studio Code, lo cual facilita visualizar las modificaciones a nivel de código de Vue.js y observar dicho cambios en la terminal, para mas detalle proceda a seguir con los siguientes pasos.
 
 ## Pasos a seguir para levantar el proyecto
@@ -32,4 +38,3 @@ El siguiente proceso se detalla en cómo levantar el proyecto en Visual Studio C
 
   ![alt text](./src/img/front_update.png)
 
-  ### [Volver al README](https://github.com/JoelBaj/API/blob/main/Readme.md)
