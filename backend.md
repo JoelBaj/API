@@ -10,7 +10,7 @@
     * WildFly versión 18.0.1 - (Importante configurar WildFly como servicio de Windows)
     * IntelliJ IDEA Community Edition
   
-  - Digirse al directorio resource del API principal, busque la carpeta 
+  - Dirigirse al directorio resource del API principal, busque la carpeta 
   "FA" y moverlo al disco local C.
 
   - Para instalar el archivo .jar en el fuente, diríjase a la carpeta resource del API, copie la ruta  en donde se encuentra ubicado el .jar, abra una terminal (cmd) y adjuntar la ruta copiada; Por último ejecute el siguiente comando:
@@ -112,7 +112,7 @@
   * Para el ambiente en fase de producción, se especifica con el nombre de "Web".
 
   - Para más detalles, observe la siguiente imagen:
-  
+
     ![alt text](./src/img/jar.png)
 ---
 
