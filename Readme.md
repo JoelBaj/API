@@ -10,8 +10,6 @@
 ## 2.- Contenido
 
 - [Clonar Repositorio](#3--guia-de-cómo-clonar-el-repositorio-del-proyecto)
-- [Guia de proyectos del Backend](https://github.com/JoelBaj/API/blob/main/backend.md)
-- [Guia de proyectos del Frontend](https://github.com/JoelBaj/API/blob/main/frontend.md)
 
 ## 3.- Guia de cómo clonar el repositorio del proyecto
 
@@ -49,9 +47,6 @@ git clone [URL DEL REPOSITORIO]
 
 ## 5.- Sección Backend - Frontend
 
-Una vez hecho todo los pasos anteriores, dirigirse a la guia del backend y frontend para realizar las instalaciones de herramientas y recursos. [Volver a contenido](#2--contenido)
+Una vez clonada la API de manera local, dirigirse a la carpeta "", en donde se encuentra las herramientas y el proceso para levantar la API del backend y frontend.
 
-<!-- ## 6.-Documentacion de Git
-
-- [Git](https://git-scm.com/docs/git/es)
-- [GitHub](https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository) -->
+[Volver a contenido](#2--contenido)

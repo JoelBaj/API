@@ -8,21 +8,17 @@
     * Maven 3.8.6
     * Apache CouchBD versión 3.3.3
     * WildFly versión 18.0.1 - (Importante configurar WildFly como servicio de Windows)
-
-  - Descargar IDE de preferencia para Java:
-    * IntelliJ IDEA Community Edition (recomendado) 
-    * Apache Netbeans 11
+    * IntelliJ IDEA Community Edition
   
-  - Descargue la carpeta FA que se encuentra dentro del repositorio principal en la carpeta de resource y descomprímala en el disco local C.
-  
-  <!-- - Verificar en la API del proyecto, se encuentre el archivo "com.microsoft.sqlserver-0.4.1.jar" que está ubicado en la carpeta de recursos, para la instalacion del mismo abra la terminal del IDE d   -->
+  - Digirse al directorio resource, busque la carpeta 
+  "FA" y moverlo al disco local C.
 
-  <!-- - Una vez descargado la carpeta FA, siga las siguientes instrucciones:
-    * Descargar el archivo "com.microsoft.sqlserver-0.4.1.jar" y ubicarlo en la Api principal dentro de la carpeta de resource.
-    * Pot ultimo abrir la terminal del IDE Y ejecutar el siguiente comando:
-    ```
+  - Para instalar el archivo .jar en el fuente, diríjase a la carpeta resource del API principal, copie la ruta  en donde se encuentra ubicado el .jar, abra una terminal (cmd) y adjuntar la ruta copiada; Por último ejecute el siguiente comando:
+
+  ```
     mvn install:install-file -Dfile=com.microsoft.sqlserver-0.4.1.jar -DgroupId=sqljdbc41 -DartifactId=com.microsoft.sqlserver -Dversion=0.4.1 -Dpackaging=jar -DgeneratePom=true
-    ``` -->
+  ```
+
 
 ## Contenido
 
@@ -60,7 +56,7 @@
 ```
    rm -r target
    rm .classpath
-   rm .proyect
+   rm .project
    mvn eclipse:eclipse
 
 ```
@@ -77,14 +73,7 @@
 
 - Detener la API del proyecto principal antes de proceder con la creación del archivo .war en el siguiente paso.
 
-- AVISO: Dirigirse al archivo pom.xml, Para la generación del archivo .jar puede variar según el ambiente:
-
-  * Para el ambiente de servidor de calidad y local, se especifica con el nombre de "Web-dev".
-
-  * Para el ambiente en fase de producción, se especifica con el nombre de "Web".
-
-
-- Una vez hecho el paso anterior segun el ambiente, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
+- Ubicarse en el archivo pom.xml, busque las siguientes dependencia en el cual debe seguir las siguientes instrucciones:
 
   - Debe tener descomentado el tomcat, como se presenta en la siguiente imagen:
 
@@ -103,7 +92,7 @@
 ```
    rm -r target
    rm .classpath
-   rm .proyect
+   rm .project
    mvn eclipse:eclipse
    mvm clean package
 ```
@@ -114,8 +103,16 @@
 
   ![alt text](./src/img/UrlWar.png)
 
-- Después de localizar el archivo .war, continúe con el siguiente proceso.
+<!-- - Después de localizar el archivo .war, continúe con el siguiente proceso. -->
 
+- AVISO: Para la generación del archivo .war puede variar según el ambiente:
+
+  * Para el ambiente de servidor de calidad y local, se especifica con el nombre de "Web-dev".
+
+  * Para el ambiente en fase de producción, se especifica con el nombre de "Web".
+
+  - Para más detalles, observe la siguiente imagen:
+    ![alt text](./src/img/jar.png)
 ---
 
 ### 1.4.- Despliegue de archivo .war en WildFly de manera local
