@@ -105,7 +105,7 @@
 
 <!-- - Después de localizar el archivo .war, continúe con el siguiente proceso. -->
 
-- AVISO: Para la generación del archivo .war puede variar según el ambiente:
+- AVISO: La generación del archivo .war puede variar según el ambiente, para ello debe dirigirse al archivo pom.xml, escribir la etiqueta "finalName" y siga las siguientes instrucciones:
 
   * Para el ambiente de servidor de calidad y local, se especifica con el nombre de "Web-dev".
 
