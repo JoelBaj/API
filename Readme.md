@@ -47,5 +47,5 @@ git clone [URL DEL REPOSITORIO]
 
 ## 5.- Sección Backend - Frontend
 
-Una vez clonada la API de manera local, dirigirse a la carpeta "", en donde se encuentra las herramientas y el proceso para levantar la API del backend y frontend.
+Una vez clonada la API de manera local, dirigirse a la carpeta "", en donde se detalla el proceso para levantar la API del backend y frontend.
 
