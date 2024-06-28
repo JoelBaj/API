@@ -94,7 +94,7 @@
    rm .classpath
    rm .project
    mvn eclipse:eclipse
-   mvm clean package
+   mvn clean package
 ```
 
 ### 1.3.2 Ubicación del archivo .war
